@@ -572,8 +572,8 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
-			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
+		    background-color: #83d3c9;
+		    background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
@@ -802,12 +802,12 @@
 	@keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }
 
 	#banner {
-		background-attachment: scroll, scroll, scroll, fixed;
+		background-attachment: scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");
-		background-position: bottom left, bottom right, top left, top center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-image: url("images/overlay.png"), url("../images/banner.jpg");
+		background-position: top left, top center;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
 		color: white;
 		cursor: default;
 		padding: 6em 0;
@@ -872,7 +872,7 @@
 /* Main */
 
 	#main {
-		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
+	    /*background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");*/
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
@@ -899,9 +899,9 @@
 		padding-top: 5em;
 	}
 
-/* CTA */
+/* SUBSCRIBE */
 
-	#cta {
+	#subscribe {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
 		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner.jpg");
@@ -913,7 +913,7 @@
 		text-align: center;
 	}
 
-		#cta header {
+		#subscribe header {
 			margin-bottom: 2em;
 		}
 
